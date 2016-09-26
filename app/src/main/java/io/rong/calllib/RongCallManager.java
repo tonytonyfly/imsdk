@@ -94,7 +94,7 @@
 /*      */         {
 /*      */           public void run() {
 /*   93 */             RLog.e(RongCallManager.TAG, "onReceivedCall.");
-/*   94 */             RongCallManager.1.this.val$listener.onReceivedCall(this.val$callSession);
+/*   94 */             RongCallManager.1.this.listener.onReceivedCall(this.val$callSession);
 /*      */           }
 /*      */         });
 /*      */       }
